@@ -220,10 +220,6 @@ wheels = [
 name = "langchain-tutorials"
 version = "0.1.0"
 source = { virtual = "." }
-dependencies = [
-    { name = "ipykernel" },
-    { name = "uv" },
-]
 
 [package.dev-dependencies]
 dev = [
@@ -232,10 +228,6 @@ dev = [
 ]
 
 [package.metadata]
-requires-dist = [
-    { name = "ipykernel", specifier = ">=7.1.0" },
-    { name = "uv", specifier = ">=0.9.18" },
-]
 
 [package.metadata.requires-dev]
 dev = [
